@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.form-div {
+    background-color: pink;
+}
+
+.container {
+    height: 100vh;
+}
+
+.main-form {
+    height: 95vh;
+    padding: 10rem;
+    padding-top: 5rem;
+    background-color: white;
+    transform: translateY(2.5vh);    
+}
+
+.form {
+    display: inline-block; 
+    text-align: left;
+    width: 100%;
+}
+
+.form-title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.job-job {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.job-id {
+    width: 45%;
+    height: 3rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 10px;
+    background-color: pink;
+    border: 1px solid rgb(254, 101, 126);
+    border-radius: 15px;
+}
+
+.job-title, .job-company-location, .job-id, .job-company-name {
+    height: 3rem;
+    font-size: 1.5rem;
+    width: 45%;
+    margin-bottom: 1rem;
+    padding: 10px;
+    background-color: pink;
+    border: 1px solid rgb(254, 101, 126);
+    border-radius: 15px;
+
+}
+
+.job-title {
+    margin-right: 5%;
+}
+
+.job-company-location {
+    margin-left: 5%;
+}
+
+.job-id {
+    margin-right: 5%;
+}
+
+.job-company-name {
+    margin-left: 5%;
+}
+
+.job-description, .job-company-description {
+    height: 25rem;
+    font-size: 1.5rem;
+    width: 45%;
+    margin-bottom: 1rem;
+    padding: 10px;
+    overflow: hidden;
+    resize: none;
+    background-color: pink;
+    border: 1px solid rgb(254, 101, 126);
+    border-radius: 15px;
+}
+
+.job-description {
+    margin-right: 5%;
+}
+
+.job-company-description {
+    margin-left: 5%;
+}
+
+.btn-submit {
+    padding: 10px;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    border-radius: 150px;
+    background-color: pink;
+    border: 1px solid rgb(254, 101, 126);
+    width: 40%;
+    margin-left: 30%;
+}
+
+.btn-submit:hover {
+    cursor: pointer;
+    background-color: rgb(254, 101, 126);
+
+}
+
+.btn-add-job {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    border-bottom-left-radius: 150px;
+    border-top-left-radius: 150px;
+    background-color: white;
+    border-bottom: 1px solid rgb(254, 101, 126);
+    border-top: 1px solid rgb(254, 101, 126);
+    border-left: 1px solid rgb(254, 101, 126);
+    border-right: 1px solid white;
+}
+
+.btn-add-job:hover {
+    cursor: pointer;
+    opacity: 0.75;
+    background-color: rgb(254, 101, 126);
+}
+
+.input-add-job {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    background-color: white;
+    border: 1px solid rgb(254, 101, 126);
+}
+
+.btn-search-job {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    background-color: white;
+    border-bottom-right-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom: 1px solid rgb(254, 101, 126);
+    border-top: 1px solid rgb(254, 101, 126);
+    border-right: 1px solid rgb(254, 101, 126);
+    border-left: 1px solid white
+
+}
+
+.btn-search-job:hover {
+    cursor: pointer;
+    opacity: 0.75;
+    background-color: rgb(254, 101, 126);
+}
+
+.add-job-input-field {
+    margin-left: 40px;
+    width: 45vw;
+}
+
+.btn-cancel {
+    padding: 10px;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    border-radius: 150px;
+    background-color: pink;
+    border: 1px solid rgb(254, 101, 126);
+    width: 40%;
+    margin-left: 30%;
+}
+
+.btn-cancel:hover {
+    cursor: pointer;
+    background-color: rgb(254, 101, 126);
+
+}

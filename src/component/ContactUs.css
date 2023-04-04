@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.containerr {
+    background-color: pink;
+    height: 90vh;
+    width: 100vw;
+}
+
+.contactus-div {
+    height: 70vh;
+    width: 60vw;
+    background-color: white;
+    align-items: center;    
+    margin-left: 15vw;
+    top: 20vh;
+    position: absolute;
+    padding: 50px;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.paragraph {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.phone-number {
+    width: 47.5%;
+    height: 2.5rem;
+    padding: 10px;
+    background-color: #db7093;
+    border: 1px solid #db7093;
+}
+
+.firstnamee {
+    margin-right: 2.5%;
+    margin-bottom: 1.5%;
+    width: 47.5%;
+    height: 2.5rem;
+    padding: 10px;
+    background-color: #db7093;
+    border: 1px solid #db7093;
+}
+
+.lastnamee {
+    margin-left: 2.5%;
+    margin-bottom: 1.5%;
+    width: 47.5%;
+    height: 2.5rem;
+    padding: 10px;
+    background-color: #db7093;
+    border: 1px solid #db7093;
+}
+
+.emaill {
+    margin-right: 2.5%;
+    margin-bottom: 1.5%;
+    width: 47.5%;
+    height: 2.5rem;
+    padding: 10px;
+    background-color: #db7093;
+    border: 1px solid #db7093;
+}
+
+.phone-number {
+    margin-left: 2.5%;
+    margin-bottom: 1.5%;
+}
+
+.address, .textarea-field {
+    width: 100%;
+    background-color: #db7093;
+    border: 1px solid #db7093;
+    padding: 10px;
+    margin-bottom: 1.5%;
+}
+
+.address {
+    height: 2.5rem;
+}
+
+.textarea-field {
+    height: 7rem
+}
+
+.btn-div {
+    text-align: center;
+}
+
+
+.btn-sbmt {
+    margin-right: 2.5%;
+    background-color: #db7093;
+    padding: 10px;
+    border: 1px solid #db7093;
+    width: 10rem;
+}
+
+.btn-cancell {
+    margin-left: 2.5%;
+    background-color: #ba476d;
+    padding: 10px;
+    border: 1px solid #db7093;
+    width: 10rem;
+}
+
+
+
+@media(max-width: 725px) {        
+    .btn-sbmt {
+        width: 5rem;
+    }
+
+    .btn-cancel {
+        width: 5rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+    
+    .paragraph {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.head-nav {
+    background-color: #db7093;
+    height: 10vh;
+    position: fixed;
+    width: 100vw;
+}
+

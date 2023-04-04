@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.add-job-input-field {
+    margin-top: 10vh;
+}
+
+.add-job-input-field a {
+    text-decoration: none;
+    color: black;
+}
+
+.add-job-input-field a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.there-is-no-job {
+    height: 45vh;
+    width: 100vw;
+}
+
+.no-job-div {
+    align-items: center;
+    text-align: center;
+    padding-top: 3vh;
+}
+
+.job-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.job-list1 {
+    display: flex;
+    flex-wrap: wrap;
+}

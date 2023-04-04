@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.job-container {
+    width: 45vw;
+    border: 1px solid red;
+    margin: 45px;
+    padding: 20px;
+    background-color: white;
+    height: 60vh;
+}
+
+.job-titlee{
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.company-titlee {
+    font-size: 1.5rem; 
+}
+
+.job-locationn {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.job-title-link {
+    text-decoration: none;
+    color: rgb(254, 101, 126);
+    padding-bottom: 3px;
+}
+
+.job-title-link:hover {
+    border-bottom: 2px solid rgb(254, 101, 126);
+    opacity: 0.75;
+}
+
+.apply-btn {
+    padding: 10px;
+    width: 10rem;
+    background-color: rgb(254, 101, 126);
+    border: 1px solid rgb(254, 101, 126);
+}
+
+.apply-btn:hover {
+    background-color: transparent;
+    border: 3px solid rgb(254, 101, 126);
+}
+
+.apply-btn-div {
+    text-align: center;
+}

@@ -1,0 +1,183 @@
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.landing-div {
+    background-image: url(./Images/project-bg.PNG);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;  
+    display: flex; 
+}
+
+.landing-left {
+    width: 50%;
+    height: 90vh;
+    padding: 50px;
+    padding-left: 100px;
+    text-align: right;
+
+}
+
+.landing-left > h3 {
+    font-size: 5rem;
+    font-weight: 900;
+    font-style: italic;
+    color: white;
+    padding-top: 100px;
+}
+
+.landing-left > h1 {
+    font-size: 6.5rem;
+    font-weight: 900;
+    font-style: italic;
+    color: white;
+}
+
+.landing-left > h6 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.landing-left > .login-btn {
+    font-size: 2rem;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid black;
+    box-shadow: 5px 10px black;
+    width: 10rem;
+    color: white;
+}
+
+.landing-left > .login-btn:hover {
+    box-shadow: 5px 10px #ba476d;
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+
+.landing-right {
+    width: 50%;
+    height: 90vh;
+    padding: 50px;
+    text-align: right;
+}
+
+.landing-right p{
+    padding-top: 60vh;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.landing-right input {
+    height: 50px;
+    width: 20rem;
+    padding: 20px;
+    border: 2px solid #db7093;;
+    color: black;
+}
+
+.landing-right button {
+    height: 50px;
+    width: 8rem;
+    background: transparent;
+    border: 2px solid #db7093;
+    background-color: #db7093;;
+}
+
+
+
+
+
+
+@media(max-width: 1335px) {        
+    .landing-left > h3 {
+        font-size: 3rem;
+    }
+    
+    .landing-left > h1 {
+        font-size: 4rem;
+
+    }
+    
+    .landing-left > h6 {
+        font-size: 2rem;
+    }
+
+    .landing-right p{
+        padding-top: 40vh;
+        font-size: 1.5rem;
+    }
+    
+    .landing-right input {
+        height: 40px;
+    }
+    
+    .landing-right button {
+        height: 40px;
+    }
+
+
+}
+
+@media(max-width: 990px) {        
+    .landing-left {
+        padding: 0;
+    }
+    .landing-right {
+        padding: 0;
+    }
+    .landing-left > h3 {
+        font-size: 2rem;
+    }
+    .landing-left > h1 {
+        font-size: 3rem;
+
+    }
+    .landing-left > h6 {
+        font-size: 1rem;
+    }
+    .landing-left > button {
+        font-size: 1rem;
+        padding: 5px;
+        border: 1px solid black;
+        box-shadow: 3px 6px black;
+        width: 5rem;
+    }
+    .landing-right p{
+        padding-top: 50vh;
+        font-size: 1rem;
+    }
+    .landing-right input {
+        height: 30px;
+        width: 15rem;
+
+    }
+    .landing-right button {
+        height: 30px;
+        width: 6rem;
+
+    }
+}
+
+@media(max-width: 500) {    
+    .landing-right p{
+        font-size: 0.3rem;
+    }
+    .landing-right input {
+        height: 30px;
+        width: 10rem;
+
+    }
+    .landing-right button {
+        height: 30px;
+        width: 5rem;
+
+    }
+
+}

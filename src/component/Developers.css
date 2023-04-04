@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.developers-div {
+    display: flex;
+    padding: 20px 50px 20px 50px;
+    width: 80vw;
+    margin-left: 10vw;
+    height: 100vh;
+    background-color: pink;
+}
+
+.card-container {
+    width: 35vw;
+    background-color: white;
+    padding-top: 30px;
+}
+
+.allan {
+    margin-right: 5vw;
+}
+
+.lester {
+    margin-left: 5vw;
+}
+
+.allan-img {
+    height: 500px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+.lester-img {
+    height: 500px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+.dev-info {
+    margin-left: 10%;
+    padding-right: 10%;
+}
+
+.dev-info > h3 {
+    font-style: italic;
+    font-weight: 900;
+    font-size: 2rem;
+} 
+
+.dev-info > p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.dev-info > button {
+    padding: 20px;
+    width: 200px;
+    color: white;
+    background-color: pink;
+    border: 1px solid pink;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.dev-info > button:hover {
+    background-color: transparent;
+    border: 3px solid pink;
+    color: pink;
+}
+
+.background-color {
+    background-color: pink;
+}
