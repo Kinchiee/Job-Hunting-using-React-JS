@@ -11,9 +11,9 @@ function Footer() {
             <div className='footer-content'>
                 <p><i>"Success seems to be connected to action. Successful people keep moving. They make mistakes, but they never quit.”</i></p>
              <ul className='social'>
-                <li><a ><BsFacebook /></a></li>
-                <li><a ><BsTwitter /></a></li>
-                <li><a ><BsInstagram /></a></li>
+                <li><button  ><BsFacebook /></button ></li>
+                <li><button  ><BsTwitter /></button ></li>
+                <li><button  ><BsInstagram /></button ></li>
              </ul>
             </div>
             <div className='footer-copyright'>
